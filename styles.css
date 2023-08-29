@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #D4C4C4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos de la sección hero */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #2fec4ea2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Estilos de la sección de servicios */
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #FFFBF8;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.service-card img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: ;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
